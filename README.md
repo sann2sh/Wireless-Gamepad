@@ -1,4 +1,4 @@
-# gamepad
+# Custom Wireless Gamepad
 
 Custom Wireless Gamepad with NRF24L01 & Virtual Gamepad Emulation
 
