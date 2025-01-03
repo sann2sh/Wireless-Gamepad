@@ -24,7 +24,7 @@ This repository contains the code for a custom-built wireless gamepad that uses 
 5.Toggle switches (2)
 6.NRF24L01 wireless module
 
-**Receiver (Receiver Arduino + Python):  **
+**Receiver (Receiver Arduino + Python):  **  
 1.Arduino with NRF24L01 wireless module  
 2.Python script to read data from the receiver and emulate a virtual gamepad using the vgamepad library.  
 
