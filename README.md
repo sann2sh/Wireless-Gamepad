@@ -7,13 +7,18 @@ This repository contains the code for a custom-built wireless gamepad that uses 
 
 Features:
 1.2.4GHZ Wireless communication between the gamepad and the receiver using NRF24L01 modules.
+
 2.13 channels of input data, including: Joystick (X, Y axes), potentiometer(for triggers), button states (press/release), switch states (for toggle inputs).
+
 3.Virtual gamepad emulation in Python using the vgamepad library, allowing the custom gamepad to be recognized as a standard gamepad by the system.
+
 4.Low-latency(<5ms) communication for real-time gaming applications.
+
 5.Gamepad range (0.5km-1km)
 
 
 Components:
+
 Gamepad (Transmitter):
 
 Arduino nano
@@ -38,7 +43,7 @@ pyserial library for serial communication with the Arduino.
 Install using: pip install pyserial
 
 Driver:
-Install ViGEmBus Driver: [Link]([url](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0))
+Install ViGEmBus Driver: [Link](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0)
 
 
 The emulated gamepad will be recognized by the operating system as a standard gamepad and can be used in games or applications that support gamepad input.
