@@ -5,7 +5,7 @@ Custom Wireless Gamepad with NRF24L01 & Virtual Gamepad Emulation
 This repository contains the code for a custom-built wireless gamepad that uses Arduino, joystick modules, potentiometers, switches, and buttons to emulate various gamepad inputs. The gamepad uses two NRF24L01 wireless modules for communication, transmitting data from the gamepad to a receiver Arduino, which then sends the data to a Python script that emulates a virtual gamepad.
 
 
-**Features: ** 
+**Features: **  
 1. 2.4GHZ Wireless communication between the gamepad and the receiver using NRF24L01 modules.  
 2. 13 channels of input data, including: Joystick (X, Y axes), potentiometer(for triggers), button states (press/release), switch states (for toggle inputs).  
 3. Virtual gamepad emulation in Python using the vgamepad library, allowing the custom gamepad to be recognized as a standard gamepad by the system.  
@@ -13,16 +13,16 @@ This repository contains the code for a custom-built wireless gamepad that uses 
 5. Gamepad range (0.5km-1km)     
 
 
-**Components:**
+**Components:**  
 
-**Gamepad (Transmitter):   **
+**Gamepad (Transmitter):   **  
 
 1.Arduino nano   
 2.Joystick modules (2)   
-3.Potentiometers (2)
-4.Push buttons (5)
-5.Toggle switches (2)
-6.NRF24L01 wireless module
+3.Potentiometers (2)  
+4.Push buttons (5)  
+5.Toggle switches (2)  
+6.NRF24L01 wireless module  
 
 **Receiver (Receiver Arduino + Python):  **  
 1.Arduino with NRF24L01 wireless module  
@@ -30,10 +30,10 @@ This repository contains the code for a custom-built wireless gamepad that uses 
 
 **Dependencies:   **  
 
-**Arduino:  **
+**Arduino:  **  
 RF24 library for NRF24L01 communication.  
 
-**Python:  **
+**Python:  **  
 vgamepad library for gamepad emulation.  
 Install using: pip install vgamepad  
 
