@@ -1,7 +1,6 @@
 # Custom Wireless Gamepad  
 
-Images
-![Gamepad](images/1.png)![Gamepad](images/3.png)  
+Demo: [Instagram](https://www.instagram.com/p/C85WJCntn46/)
 
 
 Custom Wireless Gamepad with NRF24L01 & Virtual Gamepad Emulation
@@ -44,8 +43,12 @@ This repository contains the code for a custom-built wireless gamepad that uses 
 -pyserial library for serial communication with the Arduino.  
   Install using: pip install pyserial  
 
+
+
 **Driver:  **
 Install ViGEmBus Driver: [Link](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0)  
 
+  Images
+![Gamepad](images/1.png)![Gamepad](images/3.png)  
 
 The emulated gamepad will be recognized by the operating system as a standard gamepad and can be used in games or applications that support gamepad input.
