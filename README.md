@@ -31,14 +31,14 @@ This repository contains the code for a custom-built wireless gamepad that uses 
 **Dependencies:   **  
 
 **Arduino:  **  
-RF24 library for NRF24L01 communication.  
+-RF24 library for NRF24L01 communication.  
 
 **Python:  **  
-vgamepad library for gamepad emulation.  
-Install using: pip install vgamepad  
+-vgamepad library for gamepad emulation.  
+  Install using: pip install vgamepad  
 
-pyserial library for serial communication with the Arduino.  
-Install using: pip install pyserial  
+-pyserial library for serial communication with the Arduino.  
+  Install using: pip install pyserial  
 
 **Driver:  **
 Install ViGEmBus Driver: [Link](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0)  
