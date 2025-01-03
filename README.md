@@ -1,9 +1,9 @@
 # Custom Wireless Gamepad  
 
 Images
-![Gamepad](images/1.png)  
-![Gamepad](images/2.png)  
-![Gamepad](images/3.png)
+![Gamepad](images/1.png)![Gamepad](images/3.png)  
+
+
 Custom Wireless Gamepad with NRF24L01 & Virtual Gamepad Emulation
 
 This repository contains the code for a custom-built wireless gamepad that uses Arduino, joystick modules, potentiometers, switches, and buttons to emulate various gamepad inputs. The gamepad uses two NRF24L01 wireless modules for communication, transmitting data from the gamepad to a receiver Arduino, which then sends the data to a Python script that emulates a virtual gamepad.
