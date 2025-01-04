@@ -4,7 +4,7 @@ import struct
 import time
 
 
-arduino_port = 'COM6'  # replace with your port
+arduino_port = 'COMX'  # replace with your port
 baud_rate = 115200
 
 gamepad = vg.VX360Gamepad() #gamepad emulater
